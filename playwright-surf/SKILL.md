@@ -1,6 +1,9 @@
 ---
 name: playwright-surf
 description: Open a public web page with Playwright, read it, and report the title, final address, and what changed. Use when the operator asks to surf, open a site, or check a page. Refuse private hosts and unlisted sites when an allow-list is set.
+user-invocable: true
+disable-model-invocation: false
+when-to-use: surf, open a site, check a page, screenshot a public page
 ---
 
 # Playwright surf

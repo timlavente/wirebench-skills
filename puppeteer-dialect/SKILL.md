@@ -1,6 +1,9 @@
 ---
 name: puppeteer-dialect
 description: Translate Puppeteer wording onto the Playwright browser. Use when a task or script says Puppeteer, page.goto, page.click, or page.type. Do not install Puppeteer or a second Chromium.
+user-invocable: true
+disable-model-invocation: false
+when-to-use: puppeteer, page.goto, page.click, page.type
 ---
 
 # Puppeteer dialect

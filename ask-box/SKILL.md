@@ -1,6 +1,9 @@
 ---
 name: ask-box
 description: Stop and collect a password or key in a masked field. Use when a task needs a Tailscale auth key, an xCloud token, a webhook signing secret, or any other secret. Never take the secret in chat and never save it.
+user-invocable: true
+disable-model-invocation: false
+when-to-use: password, token, api key, secret, masked field, tailscale key, xcloud token
 ---
 
 # Ask Box

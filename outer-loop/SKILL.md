@@ -1,6 +1,9 @@
 ---
 name: outer-loop
 description: Run research, then a plan, then an audit, then one public page check before shipping. Use when the operator asks for the outer loop or a coding pass with a brake. Stop on any block finding.
+user-invocable: true
+disable-model-invocation: false
+when-to-use: outer loop, research then plan, check before shipping
 ---
 
 # Outer loop

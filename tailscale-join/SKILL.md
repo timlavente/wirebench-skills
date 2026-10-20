@@ -1,6 +1,9 @@
 ---
 name: tailscale-join
 description: Plan a Tailscale join for a bot computer on the operator private network. Use when the operator asks to join a tailnet, set a hostname, or pick tags. Do not join from a public preview and do not invent a key.
+user-invocable: true
+disable-model-invocation: false
+when-to-use: tailscale, tailnet, hostname, tags, private network
 ---
 
 # Tailscale join

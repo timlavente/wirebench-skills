@@ -1,6 +1,9 @@
 ---
 name: deploy-gate
 description: Stop a Grok Build publish until the latest freeze has been audited and no block finding remains. Use before publish, deploy, or go live. Do not publish on a missing audit.
+user-invocable: true
+disable-model-invocation: false
+when-to-use: publish, deploy, go live, ship
 ---
 
 # Deploy gate

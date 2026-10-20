@@ -1,6 +1,9 @@
 ---
 name: xcloud-read
 description: Check xCloud with a read scope and a token from Ask Box. Use when the operator asks whether xCloud is reachable or wants server and site names. Do not change a server unless they confirm that exact change.
+user-invocable: true
+disable-model-invocation: false
+when-to-use: xcloud, servers, sites, hosting check
 ---
 
 # xCloud

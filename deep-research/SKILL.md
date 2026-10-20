@@ -1,6 +1,9 @@
 ---
 name: deep-research
 description: Write a research brief, a build plan, or an audit before Grok Build changes anything. Use when the operator asks for research, a plan, an audit, or a freeze review. Never include secret values.
+user-invocable: true
+disable-model-invocation: false
+when-to-use: research, plan, audit, freeze review, brief
 ---
 
 # Deep research
